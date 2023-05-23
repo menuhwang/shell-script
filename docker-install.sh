@@ -35,3 +35,5 @@ echo "Docker install..."
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y 1> /dev/null
 
 echo "Docker install done!"
+
+sudo docker -v
